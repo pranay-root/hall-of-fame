@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Wall of Fame</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        #logo {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            max-width: 80px; /* Adjust the size of the logo as needed */
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .social-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .social-icon {
+            margin-right: 10px;
+        }
+
+        .social-icon img {
+            width: 20px; /* Adjust the size of social media icons */
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="\img\logo.jpg" alt="Company Logo">
+        <h1>Cyber Blockz Wall of Fame</h1>
+    </header>
+
+    <section>
+        <h2>Monthly Leaderboard</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>User</th>
+                    <th>Points</th>
+                    <th>Social Media</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Add dynamic content here if you have it -->
+                <tr>
+                    <td>1</td>
+                    <td>Username1</td>
+                    <td>100</td>
+                    <td class="social-links">
+                        <a href="#" class="social-icon"><img src="path/to/social/icon1.png" alt="Social Icon 1"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Username2</td>
+                    <td>90</td>
+                    <td class="social-links">
+                        <a href="#" class="social-icon"><img src="path/to/social/icon3.png" alt="Social Icon 3"></a>
+                        <!-- Add more social media icons as needed -->
+                    </td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>All-Time Leaderboard</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>User</th>
+                    <th>Points</th>
+                    <th>Social Media</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Add dynamic content here if you have it -->
+                <tr>
+                    <td>1</td>
+                    <td>Username1</td>
+                    <td>500</td>
+                    <td class="social-links">
+                        <a href="#" class="social-icon"><img src="path/to/social/icon1.png" alt="Social Icon 1"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Username2</td>
+                    <td>480</td>
+                    <td class="social-links">
+                        <a href="#" class="social-icon"><img src="path/to/social/icon3.png" alt="Social Icon 3"></a>
+                        <!-- Add more social media icons as needed -->
+                    </td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
